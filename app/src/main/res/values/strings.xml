@@ -1,0 +1,27 @@
+<resources>
+    <!-- Title for the application -->
+    <string name="app_name">MusicStructure</string>
+
+    <!-- Playlist selection -->
+    <string name="music_playlists">Playlists</string>
+
+    <!-- Albums selection -->
+    <string name="music_albums">Albums</string>
+
+    <!-- Songs selection -->
+    <string name="music_songs">Songs</string>
+
+    <!-- Artists selection -->
+    <string name="music_artists">Artists</string>
+
+    <!-- Expalantions for each activity -->
+    <string name="playlists_explanation">This activity will be used to display a list of songs from the users library</string>
+
+    <string name="albums_explanation">This activity will be used to show the albums in the users library</string>
+
+    <string name="songs_explanation">This activity will be used to show the songs in a users library</string>
+
+    <string name="artists_explanation">This activity will be used to show the artists in a users library</string>
+
+    <string name="nowplaying_explanation">This activity will show currently playing song with playback options</string>
+</resources>

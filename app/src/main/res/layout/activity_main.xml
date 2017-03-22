@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.skuhleesi.musicstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/playlists"
+        style="@style/MusicStyle"
+        android:background="@color/music_playlists"
+        android:text="@string/music_playlists" />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/MusicStyle"
+        android:background="@color/music_albums"
+        android:text="@string/music_albums" />
+
+    <TextView
+        android:id="@+id/songs"
+        style="@style/MusicStyle"
+        android:background="@color/music_songs"
+        android:text="@string/music_songs" />
+
+    <TextView
+        android:id="@+id/artists"
+        style="@style/MusicStyle"
+        android:background="@color/music_artists"
+        android:text="@string/music_artists" />
+
+</LinearLayout>
