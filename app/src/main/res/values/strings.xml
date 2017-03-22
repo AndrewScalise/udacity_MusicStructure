@@ -24,4 +24,7 @@
     <string name="artists_explanation">This activity will be used to show the artists in a users library</string>
 
     <string name="nowplaying_explanation">This activity will show currently playing song with playback options</string>
+
+    <!-- Now playing button name -->
+    <string name="nowplaying">Now Playing</string>
 </resources>

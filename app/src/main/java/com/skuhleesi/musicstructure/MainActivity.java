@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         TextView albums = (TextView)findViewById(R.id.albums);
 
         //Set a click listener on that view
-        playlists.setOnClickListener(new OnClickListener() {
+        albums.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Create a new intent to open the {@link AlbumsActivity}
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         TextView songs = (TextView)findViewById(R.id.songs);
 
         //Set a click listener on that view
-        playlists.setOnClickListener(new OnClickListener() {
+        songs.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Create a new intent to open the {@link SongsActivity}
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         TextView artists = (TextView)findViewById(R.id.artists);
 
         //Set a click listener on that view
-        playlists.setOnClickListener(new OnClickListener() {
+        artists.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
                 //Create a new intent to open the {@link ArtistsActivity}
