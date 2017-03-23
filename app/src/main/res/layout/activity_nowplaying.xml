@@ -10,4 +10,11 @@
         android:layout_height="wrap_content"
         android:text="@string/nowplaying_explanation"/>
 
+    <TextView
+        android:id="@+id/exoplayer_explanation"
+        android:paddingTop="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exoplayer_explanation"/>
+
 </LinearLayout>

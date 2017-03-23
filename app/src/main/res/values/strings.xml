@@ -25,6 +25,8 @@
 
     <string name="nowplaying_explanation">This activity will show currently playing song with playback options</string>
 
+    <string name="exoplayer_explanation">The library to be used for play back functions is exoplayer library</string>
+
     <!-- Now playing button name -->
     <string name="nowplaying">Now Playing</string>
 </resources>
